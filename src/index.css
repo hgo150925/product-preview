@@ -1,12 +1,51 @@
 :root {
   /* Primary */
 
---dark-cyan: hsl(158, 36%, 37%);
---cream: hsl(30, 38%, 92%);
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
 
-/* Neutral */
+  /* Neutral */
 
---very-dark-blue: hsl(212, 21%, 14%):
---dark-grayish-blue: hsl(228, 12%, 48%):
---white: hsl(0, 0%, 100%);
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--cream);
+}
+
+.container {
+  background-color: var(--white);
+  max-width: 60rem;
+  height: 40rem;
+  margin: 17.2rem auto;
+  background-image: url("./assets/images/image-product-desktop.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+.container__grid {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+.container__text {
+  grid-row: 2/3;
 }
