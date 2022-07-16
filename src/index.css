@@ -76,6 +76,17 @@ p {
   margin: 3.5rem 0 0 0;
 }
 
+.price {
+}
+.price ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 3.5rem 0 0 0;
+}
+li:nth-child(2) {
+  margin: 0 0 0 2rem;
+}
 .btn {
   background-color: var(--dark-cyan);
   border: none;
