@@ -38,7 +38,7 @@ body {
   background-color: var(--white);
   border-radius: 1rem;
   max-width: 60rem;
-  height: 40rem;
+  /* height: 40rem; */
   margin: 17.2rem auto;
   background-image: url("./assets/images/image-product-desktop.jpg");
   background-position: left;
@@ -67,11 +67,23 @@ p {
 .container__text p:nth-child(3) {
   color: var(--dark-grayish-blue);
   font-size: 1.3rem;
-
+  line-height: 1.5;
   margin: 3rem 0 0 0;
 }
 .container__text--title {
   font-family: "Fraunces", serif;
   font-size: 2.8rem;
+  margin: 3.5rem 0 0 0;
+}
+
+.btn {
+  background-color: var(--dark-cyan);
+  border: none;
+  border-radius: 0.5rem;
+  color: var(--white);
+  font-family: "Montserrat", serif;
+  font-weight: 500;
+  padding: 1rem;
+  width: 24rem;
   margin: 3.5rem 0 0 0;
 }

@@ -17,7 +17,7 @@ function App() {
               <li>$169.99</li>
             </ul>
           </div>
-          <button>Add to Cart</button>
+          <button className="btn">Add to Cart</button>
         </div>
       </div>
     </section>
