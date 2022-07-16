@@ -45,7 +45,9 @@ body {
 
 .container__grid {
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 .container__text {
+  border: 1px solid blue;
+  grid-column: 2 / 3;
 }
