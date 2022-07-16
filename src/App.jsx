@@ -1,5 +1,5 @@
 function App() {
-  treturn(
+  return (
     <section className="container">
       <div className="container__grid">
         <div className="container__text">
