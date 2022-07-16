@@ -33,6 +33,7 @@ body {
 
 .container {
   background-color: var(--white);
+  border-radius: 1rem;
   max-width: 60rem;
   height: 40rem;
   margin: 17.2rem auto;
@@ -47,5 +48,4 @@ body {
   grid-template-rows: repeat(2, 1fr);
 }
 .container__text {
-  grid-row: 2/3;
 }
