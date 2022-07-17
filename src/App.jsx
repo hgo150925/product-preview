@@ -3,7 +3,7 @@ import iconCart from "./assets/images/icon-cart.svg";
 function App() {
   return (
     <section className="container">
-      <div className="container__grid">
+      <div className="container__grid container__flex">
         <div className="container__text">
           <p>perfume</p>
           <h1 className="container__text--title">

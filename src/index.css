@@ -111,3 +111,26 @@ li:nth-child(2) {
 .btn:hover {
   background-color: #025102;
 }
+
+@media screen and (max-width: 500px) {
+  .container {
+    background-color: var(--white);
+    border-radius: 1rem;
+    max-width: 34.2rem;
+    height: 65rem;
+    margin: 17.2rem auto;
+    background-image: url("./assets/images/image-product-mobile.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .container__flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container__text {
+    margin: 23rem 0 0 0;
+  }
+}
