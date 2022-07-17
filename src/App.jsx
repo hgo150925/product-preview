@@ -1,3 +1,5 @@
+import iconCart from "./assets/images/icon-cart.svg";
+
 function App() {
   return (
     <section className="container">
@@ -17,7 +19,10 @@ function App() {
               <li>$169.99</li>
             </ul>
           </div>
-          <button className="btn">Add to Cart</button>
+          <button className="btn">
+            <img src={iconCart} alt="" />
+            Add to Cart
+          </button>
         </div>
       </div>
     </section>
