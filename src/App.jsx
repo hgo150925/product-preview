@@ -20,7 +20,7 @@ function App() {
             </ul>
           </div>
           <button className="btn">
-            <img src={iconCart} alt="" />
+            <img src={iconCart} alt="icon-cart" />
             Add to Cart
           </button>
         </div>
