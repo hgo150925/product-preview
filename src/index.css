@@ -112,6 +112,20 @@ li:nth-child(2) {
   background-color: #025102;
 }
 
+@media screen and (max-width: 1440px) {
+  .container {
+    background-color: var(--white);
+    border-radius: 1rem;
+    max-width: 60rem;
+    height: 45rem;
+    margin: 17.2rem auto;
+    background-image: url("./assets/images/image-product-desktop.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 50%;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .container {
     background-color: var(--white);
